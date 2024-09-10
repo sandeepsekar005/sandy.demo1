@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: black;
+    text-align: center;
+    color:#fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(78, 177, 78);
+    height: 50px;
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+    
+}
+nav>div>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 3px;
+    margin-inline-end: 20px;
+    
+
+}
+nav>div>ul>li{
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+nav>div>ul>li:hover{
+    /* border: 0.5px solid white;  */
+    border-radius: 10px;
+    /* background-color: silver; */
+    color: black;
+    padding-top: 5px;
+
+}
+.venue{
+    cursor: pointer;
+    display: inline;
+    align-items: center;
+}
+.venue:hover{
+    border-bottom: 1px solid green;
+
+}
+.oo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.jk{
+    
+    width: 800px;
+    height:736px;
+}
+.carousel-inner{
+    width: 800px;
+    height:500px;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.cricke{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.cricket{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dope{
+    height: 340px;
+    width: 319px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+.hg{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap ;
+   
+   
+}
+footer{
+    background-color: #777;
+    width:100%;
+    height: 400px;
+    margin-top: 40px;
+}
+.fo>li{
+    color: #000;
+    list-style-type: none;
+    margin-left: 20px;
+    line-height: 2;
+    cursor: pointer;
+    width: fit-content;
+}
+.fo>li:hover{
+    color: gold;
+}
+.foo{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
